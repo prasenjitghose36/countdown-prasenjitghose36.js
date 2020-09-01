@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/* Box */
+.box{
+	padding: 10px;
+	width:60%; 
+}
+
+.box-inner{
+	padding: 4px;
+}
+
+/* table */
+.box-inner>table tr td{
+    width: 25%; 
+    text-align: center;
+}
+
+.box-inner table{
+	margin: auto;
+}
+
+/* Content */
+.content{
+	border-style: dashed;
+	border-width: 2px;
+	border-radius: 100%;
+	border-color: #f4f4f4;
+	padding: 3%; 
+}
+
+.content>h1{
+	border:6px solid;
+	border-radius: 100%;
+	margin: 0;
+	color: #ffffff;
+	padding: 23%;
+}
+
+#days{
+    border-color: #3cba54;
+}
+
+#hours{
+	border-color: #f4c20d;
+}
+
+#minutes{
+	border-color: #db3236;
+}
+
+#seconds{
+	border-color: #4885ed;
+}
+
+.content~h1{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/* fonts */
+.font-gaegu{
+    font-family: 'Gaegu', cursive;
+}
+
+.font-merienda{
+    font-family: 'Merienda', cursive;
+}
+
+.font-oswald{
+	font-family: 'Oswald', sans-serif;
+}

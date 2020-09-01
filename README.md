@@ -1,2 +1,3 @@
-# countdown-prasenjitghose36.js
-A simple countdown made with javascript which can be used everywhere and whenever you want coded by prasenjitghose36
+# CountDownTimer
+
+A count-down timer using javascript,html and css made by prasenjitghose36
